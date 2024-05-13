@@ -1,10 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BaseTemplate from './base-template';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
+
   return (
-    
+  <> 
+      <BaseTemplate />
+      <ToastContainer />
+      </>
   );
 }
 
